@@ -4,11 +4,10 @@
   margin-right: 40px;
 }
 
-h2 {
-  background-color: lightgrey;
+.heading {
+  background-color: rgba(249, 250, 251, 255);
   border-radius: 10px 10px 0 0;
   margin: 0;
-
 }
 
 ul {
@@ -29,7 +28,7 @@ ul {
   /* background-color: white; */
   border: 0;
   border-radius: 0 0 10px 10px;
-  background-color: lightgrey;
+  background-color: rgba(249, 250, 251, 255);
 }
 
 .content {
@@ -46,4 +45,5 @@ ul {
   border: 0;
   border-radius: 5px;
   padding: 10px;
+  white-space: nowrap;
 }

@@ -1,12 +1,12 @@
 .layout {
   display: flex;
-  background-color: #f3f4f6;
-  background-color: red;
 }
 
 .main {
   display: flex;
   flex-direction: column;
+  background-color: rgba(243, 244, 246, 255);
+  width: 100%;
 }
 
 .cardsContainer {

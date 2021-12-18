@@ -1,3 +1,4 @@
+import "../App.css";
 import Layout from "../components/Layout/Layout";
 import NotificationsCard from "../components/NotificationsCard/NotificationsCard";
 import FreightCard from "../components/FreightCard/FreightCard";

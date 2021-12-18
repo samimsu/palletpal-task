@@ -1,7 +1,7 @@
 .sidebar {
   background-color: rgba(31, 41, 55, 255);
   min-width: 256px;
-  height: 100vh;
+  min-height: 100vh;
   color: rgba(209, 213, 219, 255);
 
 }

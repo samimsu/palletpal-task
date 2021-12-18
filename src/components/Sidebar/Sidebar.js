@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Sidebar.module.css";
 import logo from "../../assets/logo.svg";
 import menuButton from "../../assets/menu-button.png";
@@ -15,16 +16,21 @@ const Sidebar = () => {
         <img className={styles.menuIcon} src={menuButton} alt="menu button" />
       </div>
       <ul>
-        <li className={styles.active}>
-          <img
-            className={styles.icon}
-            src={dashboardIcon}
-            alt="dashboard icon"
-            width="18"
-            height="18"
-          />
-          Dashboard
-        </li>
+        <Link
+          to="/dashboard"
+          style={{ color: "white", textDecoration: "none" }}
+        >
+          <li className={styles.active}>
+            <img
+              className={styles.icon}
+              src={dashboardIcon}
+              alt="dashboard icon"
+              width="18"
+              height="18"
+            />
+            Dashboard
+          </li>
+        </Link>
         <li>
           <img
             className={styles.icon}
@@ -35,16 +41,21 @@ const Sidebar = () => {
           />
           New Shipment
         </li>
-        <li>
-          <img
-            className={styles.icon}
-            src={shipmentOverviewIcon}
-            alt="shipment overview icon"
-            width="18"
-            height="18"
-          />
-          Shipment Overview
-        </li>
+        <Link
+          to="/shipment-overview"
+          style={{ color: "white", textDecoration: "none" }}
+        >
+          <li>
+            <img
+              className={styles.icon}
+              src={shipmentOverviewIcon}
+              alt="shipment overview icon"
+              width="18"
+              height="18"
+            />
+            Shipment Overview
+          </li>
+        </Link>
         <li>
           <img
             className={styles.icon}

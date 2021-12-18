@@ -3,7 +3,7 @@ import styles from "./NotificationsCard.module.css";
 const NotificationsCard = () => {
   return (
     <div className={styles.card}>
-      <h2>Notifications</h2>
+      <h2 className={styles.heading}>Notifications</h2>
       <ul>
         <li className={styles.notification}>
           <div className={styles.content}>
@@ -19,8 +19,8 @@ const NotificationsCard = () => {
           <div className={styles.content}>
             <h3>Manage Subscription</h3>
             <p>
-              Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit
-              amet ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae voluptatibus corrupti atque repudiandae nam.
             </p>
           </div>
           <button className={styles.button}>Change plan</button>
