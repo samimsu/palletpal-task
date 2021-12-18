@@ -1,0 +1,81 @@
+.card {
+  /* background-color: grey; */
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.title h3 {
+  margin-right: 10px;
+}
+
+.badge {
+  color: darkgreen;
+  background-color: lightgreen;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.date {
+  flex-grow: 2;
+  /* background-color: blue; */
+  text-align: end;
+}
+
+h2 {
+  background-color: lightgrey;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  /* margin: 0; */
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+.alternateNotification {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  border: 0;
+  border-radius: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: lightgrey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button {
+  color: white;
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,15 @@
+.layout {
+  display: flex;
+  background-color: #f3f4f6;
+  background-color: red;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsContainer {
+  padding: 20px;
+  /* background: green; */
+}

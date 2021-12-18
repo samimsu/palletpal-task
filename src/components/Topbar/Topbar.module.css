@@ -1,0 +1,56 @@
+.topbar {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  padding: 0 26px 0 19px;
+  /* width: calc(100vw - 296px); */
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  border-bottom: 1px solid #888888;
+  background-color: white;
+}
+
+input {
+  /* padding: 22px 50px; */
+  /* padding: 0 50px; */
+  border: 0;
+  /* width: 85%; */
+  /* width: calc(100vw - 425px); */
+  /* background-color: green; */
+}
+
+input:focus, input:active {
+  margin: 0;
+  outline: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  /* background-color: skyblue; */
+  background-color: white;
+  text-align: center;
+  /* padding: 5px 0; */
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 240px;
+  top: 100%;
+  left: 50%;
+  margin-left: -225px;
+  /* margin-top: 10px; */
+  border-bottom: 2px solid grey;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.listItem:hover {
+  background-color: grey;
+}

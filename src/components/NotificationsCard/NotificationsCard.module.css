@@ -1,0 +1,49 @@
+.card {
+  /* background-color: grey; */
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+h2 {
+  background-color: lightgrey;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+
+}
+
+ul {
+  padding: 0;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+.alternateNotification {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  border: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: lightgrey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  /* margin-right: 250px; */
+}
+
+
+.button {
+  color: white;
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
