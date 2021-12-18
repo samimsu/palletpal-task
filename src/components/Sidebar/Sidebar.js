@@ -11,14 +11,15 @@ const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <div className={styles.top}>
-        <img className={styles.logo} src={logo} />
-        <img className={styles.menuIcon} src={menuButton} />
+        <img className={styles.logo} src={logo} alt="logo" />
+        <img className={styles.menuIcon} src={menuButton} alt="menu button" />
       </div>
       <ul>
         <li className={styles.active}>
           <img
             className={styles.icon}
             src={dashboardIcon}
+            alt="dashboard icon"
             width="18"
             height="18"
           />
@@ -28,6 +29,7 @@ const Sidebar = () => {
           <img
             className={styles.icon}
             src={newShipmentIcon}
+            alt="new shipment icon"
             width="18"
             height="18"
           />
@@ -37,6 +39,7 @@ const Sidebar = () => {
           <img
             className={styles.icon}
             src={shipmentOverviewIcon}
+            alt="shipment overview icon"
             width="18"
             height="18"
           />
@@ -46,6 +49,7 @@ const Sidebar = () => {
           <img
             className={styles.icon}
             src={trackingAndAnalyticsIcon}
+            alt="tracking and analytics icon"
             width="18"
             height="18"
           />
@@ -55,6 +59,7 @@ const Sidebar = () => {
           <img
             className={styles.icon}
             src={billingAndInvoicesIcon}
+            alt=" billing and invoices icon"
             width="18"
             height="18"
           />
@@ -64,6 +69,7 @@ const Sidebar = () => {
           <img
             className={styles.icon}
             src={billingAndInvoicesIcon}
+            alt="reports icon"
             width="18"
             height="18"
           />
